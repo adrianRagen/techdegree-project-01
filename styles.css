@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: red;
+  color: black;
 }
 a:hover {
   color: #6633ff;
@@ -47,6 +47,7 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  color: red;
 }
 .nav a:hover {
   color: white
@@ -106,14 +107,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-table;
-  background: #red;
-  color: red;
+  background: red;
+  color: black;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(ev) {
-  background: #lawngreen;
+  background: lawngreen;
 }
 
 footer {
