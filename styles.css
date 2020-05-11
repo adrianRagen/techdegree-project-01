@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: grey;
+  color: #e8eddf;
+  background-color: #b2b0b0;
 }
 /* Link Styles */
 
@@ -25,8 +25,8 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
-  min-height: 30px;
+  background: rgba(51, 53, 51, 0.49);
+  min-height: 20px;
   padding: 10px;
   position: fixed;
   text-align: center;
@@ -41,13 +41,14 @@ a:hover {
 }
 .nav .name {
   display: none;
+    color: #7ccdf4;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
-  color: red;
+  color: #f5cb5c;
 }
 .nav a:hover {
   color: white
@@ -55,16 +56,19 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Project01-Wallpaper.jpg') no-repeat top center ;
-  background-size: cover;
+  background-image: linear-gradient(#000, rgba(0, 0, 0, 0.10)), url('images/hero-back-img.jpg');
+  background-size:cover;
+  background-position: center;
   overflow: hidden;
   padding-top: 60px;
+  height:70vh;
+  
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 10%;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -75,8 +79,7 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: white;
-  color: black;
+  color: #e8eddf;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -84,19 +87,20 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: orange;
+  color: #f5cb5c;
 }
 .card {
-  margin: 30px;
+  margin-top: 50px;
+  margin-right: 80px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #333533;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #f5cb5c;
 }
 
 ul.skills {
@@ -107,7 +111,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-table;
-  background: red;
+  background: #f5cb5c;
   color: black;
   padding: 5px 10px;
   margin: 2px;
@@ -183,7 +187,7 @@ a.social:hover {
   .nav .name {
     display: block;
     margin-right: auto;
-    color: red;
+    color: #f5cb5c;
   }
 
   main {
@@ -200,4 +204,3 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
